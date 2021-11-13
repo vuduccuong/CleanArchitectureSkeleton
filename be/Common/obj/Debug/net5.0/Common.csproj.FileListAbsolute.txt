@@ -1,0 +1,11 @@
+D:\VisualProject\CloneNTA\Common\bin\Debug\net5.0\Common.deps.json
+D:\VisualProject\CloneNTA\Common\bin\Debug\net5.0\Common.dll
+D:\VisualProject\CloneNTA\Common\bin\Debug\net5.0\ref\Common.dll
+D:\VisualProject\CloneNTA\Common\bin\Debug\net5.0\Common.pdb
+D:\VisualProject\CloneNTA\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualProject\CloneNTA\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+D:\VisualProject\CloneNTA\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+D:\VisualProject\CloneNTA\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+D:\VisualProject\CloneNTA\Common\obj\Debug\net5.0\Common.dll
+D:\VisualProject\CloneNTA\Common\obj\Debug\net5.0\ref\Common.dll
+D:\VisualProject\CloneNTA\Common\obj\Debug\net5.0\Common.pdb
