@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualProject\\CloneNTA\\Common\\Common.csproj": {}
+    "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Common\\Common.csproj": {}
   },
   "projects": {
-    "D:\\VisualProject\\CloneNTA\\Common\\Common.csproj": {
+    "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualProject\\CloneNTA\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\VisualProject\\CloneNTA\\Common\\Common.csproj",
+        "projectPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Cuong\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualProject\\CloneNTA\\Common\\obj\\",
+        "outputPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

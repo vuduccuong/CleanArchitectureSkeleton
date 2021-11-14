@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bU4tkay13KFrFw1sR/62ceuwyUl53dSnTiVdGnD5fxd4XNGk6VSH0skoSj/XZPeo5gUHl33vP4UIIBC7as0UIA==",
+  "dgSpecHash": "dhP9N6xuR7Eni7zmT9XKniYYeSWXZpim+EioWwNHmhzxOfZCcljVXjOuNMyPv2YAwBJB4UD7+DHQYLw3r3sHzA==",
   "success": true,
-  "projectFilePath": "D:\\VisualProject\\CloneNTA\\Common\\Common.csproj",
+  "projectFilePath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Common\\Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

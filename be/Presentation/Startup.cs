@@ -28,10 +28,13 @@ namespace Presentation
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Application DI
             services.AddApplication();
 
-            services.AddControllers().AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+            services.AddControllers().AddNewtonsoftJson(options =>
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
+            //Infratructure DI
             services.AddInfatructure(Configuration);
 
             services.AddDatabaseDeveloperPageExceptionFilter();
@@ -122,7 +125,13 @@ namespace Presentation
             app.UseStaticFiles();
 
             app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Presentation v1"));
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Presentation v1");
+                c.RoutePrefix = "";
+            });
+
             app.UseHttpsRedirection();
 
             app.UseRouting();

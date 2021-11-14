@@ -1,6 +1,7 @@
 ﻿using Application.Common.Interfaces;
 using Application.Common.Models;
 using Domain.Entities.UserManagements;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -26,6 +27,14 @@ namespace Presentation.Controllers
             _tokenService = tokenService;
         }
 
+        /// <summary>
+        /// Login InMemory
+        /// </summary>
+        /// <param name="loginDto.LoginId">Default: cuongvd7</param>
+        /// <param name="loginDto.Password">Default: G7e3KSMED!</param>
+        /// <param name="loginDto">Default: lead1</param>
+        /// <param name="loginDto">Default: G7e3KSMED!</param>
+        /// <returns></returns>
         [HttpPost]
         [Route("login")]
         public async Task<ActionResult<UserDto>> Login([FromBody] LoginDto loginDto)
@@ -79,6 +88,14 @@ namespace Presentation.Controllers
                 Status = "Error",
                 Message = "LoginId or Password are incorrect!"
             });
+        }
+
+        [HttpGet]
+        [Route("logout")]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync().ConfigureAwait(false);
+            return Ok();
         }
 
         private UserDto CreateUserObject(ApplicationUser user)

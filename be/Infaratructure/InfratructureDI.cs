@@ -18,12 +18,23 @@ namespace Infaratructure
     {
         public static IServiceCollection AddInfatructure(this IServiceCollection services, IConfiguration config)
         {
-            services.AddDbContext<ApplicationDbContext>(
+            if (config.GetSection("UseInMemory").Value == "true")
+            {
+                services.AddDbContext<ApplicationDbContext>(
+                options =>
+                    options.UseInMemoryDatabase("MemoryBaseDataBase")
+                );
+            }
+            else
+            {
+                services.AddDbContext<ApplicationDbContext>(
                 options =>
                     options.UseNpgsql(config.GetConnectionString("DefaultConnection"),
                         builder =>
                             builder.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName))
                 );
+            }
+            
 
             services.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());
 

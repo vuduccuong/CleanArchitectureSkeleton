@@ -1,38 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualProject\\CloneNTA\\Presentation\\Presentation.csproj": {}
+    "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Presentation\\Presentation.csproj": {}
   },
   "projects": {
-    "D:\\VisualProject\\CloneNTA\\Application\\Application.csproj": {
+    "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualProject\\CloneNTA\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\VisualProject\\CloneNTA\\Application\\Application.csproj",
+        "projectPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Cuong\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualProject\\CloneNTA\\Application\\obj\\",
+        "outputPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\VisualProject\\CloneNTA\\Common\\Common.csproj": {
-                "projectPath": "D:\\VisualProject\\CloneNTA\\Common\\Common.csproj"
+              "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Common\\Common.csproj": {
+                "projectPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Common\\Common.csproj"
               },
-              "D:\\VisualProject\\CloneNTA\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\VisualProject\\CloneNTA\\Domain\\Domain.csproj"
+              "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Domain\\Domain.csproj"
               }
             }
           }
@@ -44,8 +44,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -69,7 +69,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.11, )"
+              "version": "[6.0.0, )"
             },
             "Serilog": {
               "target": "Package",
@@ -91,33 +91,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VisualProject\\CloneNTA\\Common\\Common.csproj": {
+    "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualProject\\CloneNTA\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\VisualProject\\CloneNTA\\Common\\Common.csproj",
+        "projectPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Cuong\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualProject\\CloneNTA\\Common\\obj\\",
+        "outputPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -128,8 +128,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -145,33 +145,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VisualProject\\CloneNTA\\Domain\\Domain.csproj": {
+    "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualProject\\CloneNTA\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\VisualProject\\CloneNTA\\Domain\\Domain.csproj",
+        "projectPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Cuong\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualProject\\CloneNTA\\Domain\\obj\\",
+        "outputPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -182,12 +182,12 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
-              "version": "[5.0.11, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -205,36 +205,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VisualProject\\CloneNTA\\Infaratructure\\Infaratructure.csproj": {
+    "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Infaratructure\\Infaratructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualProject\\CloneNTA\\Infaratructure\\Infaratructure.csproj",
+        "projectUniqueName": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Infaratructure\\Infaratructure.csproj",
         "projectName": "Infaratructure",
-        "projectPath": "D:\\VisualProject\\CloneNTA\\Infaratructure\\Infaratructure.csproj",
+        "projectPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Infaratructure\\Infaratructure.csproj",
         "packagesPath": "C:\\Users\\Cuong\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualProject\\CloneNTA\\Infaratructure\\obj\\",
+        "outputPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Infaratructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\VisualProject\\CloneNTA\\Application\\Application.csproj": {
-                "projectPath": "D:\\VisualProject\\CloneNTA\\Application\\Application.csproj"
+              "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Application\\Application.csproj": {
+                "projectPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Application\\Application.csproj"
               }
             }
           }
@@ -246,44 +246,48 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNetCore.Authorization": {
               "target": "Package",
-              "version": "[5.0.11, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -301,39 +305,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VisualProject\\CloneNTA\\Presentation\\Presentation.csproj": {
+    "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualProject\\CloneNTA\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "D:\\VisualProject\\CloneNTA\\Presentation\\Presentation.csproj",
+        "projectPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Presentation\\Presentation.csproj",
         "packagesPath": "C:\\Users\\Cuong\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualProject\\CloneNTA\\Presentation\\obj\\",
+        "outputPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\VisualProject\\CloneNTA\\Application\\Application.csproj": {
-                "projectPath": "D:\\VisualProject\\CloneNTA\\Application\\Application.csproj"
+              "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Application\\Application.csproj": {
+                "projectPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Application\\Application.csproj"
               },
-              "D:\\VisualProject\\CloneNTA\\Infaratructure\\Infaratructure.csproj": {
-                "projectPath": "D:\\VisualProject\\CloneNTA\\Infaratructure\\Infaratructure.csproj"
+              "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Infaratructure\\Infaratructure.csproj": {
+                "projectPath": "D:\\VisualProject\\CleanArchitectureSkeleton\\be\\Infaratructure\\Infaratructure.csproj"
               }
             }
           }
@@ -345,8 +349,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -354,29 +358,29 @@
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[1.10.14, )"
+              "version": "[1.11.1, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[6.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
               "target": "Package",
@@ -384,7 +388,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.2.3, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -409,7 +413,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
